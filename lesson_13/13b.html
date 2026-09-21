@@ -1,0 +1,45 @@
+<style>
+    .box{
+        display: flex;
+    }
+    .lightpink{
+        background: lightpink;
+        width: 100px;
+    }
+    p{
+        background: #000;
+        color: white;
+        width: 35px;
+        margin-left: 30px;
+    }
+    .lightblue{
+        background: lightblue;
+        width: 200px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: row;
+    }
+    .row2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .prow{
+        margin-left: 0;
+    }
+</style>
+
+<div class="box">
+    <div class="lightpink">
+
+    </div>
+    <div class="lightblue">
+        <div class="row1">
+            row1
+        </div>
+        <div class="row2">
+            <p class="prow">row2</p>
+            <p>row2</p>
+        </div>
+    </div>
+</div>
